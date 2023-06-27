@@ -36,6 +36,6 @@ ADD_SUBDIRECTORY(tables)
 ####################################################################
 # Installing
 #
-SET(PRJ_DOC_DIR "${DATA_DIR}/doc/ibus-table-chinese")
+# SET(PRJ_DOC_DIR "${DATA_DIR}/doc/ibus-table-chinese")
 INSTALL(FILES AUTHORS README ChangeLog COPYING DESTINATION ${PRJ_DOC_DIR})
 
