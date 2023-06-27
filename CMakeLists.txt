@@ -26,7 +26,7 @@ ELSE(CMAKE_SYSTEM_PROCESSOR MATCHES "64")
     SET(LIB_DIR "${CMAKE_INSTALL_PREFIX}/lib" CACHE PATH "Library dir")
 ENDIF(CMAKE_SYSTEM_PROCESSOR MATCHES "64")
 SET(LIBEXEC_DIR "${LIB_DIR}" CACHE PATH "LIBEXEC dir")
-SET(DATA_DIR "/usr/share")
+# SET(DATA_DIR "/usr/share")
 
 ####################################################################
 # Building
